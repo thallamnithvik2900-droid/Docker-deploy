@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({
+  res.json({ 
     message: 'Hello from Dockerized Node.js App!',
     status: 'running',
     timestamp: new Date().toISOString()
